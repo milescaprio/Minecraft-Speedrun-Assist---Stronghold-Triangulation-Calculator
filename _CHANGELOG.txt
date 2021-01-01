@@ -1,0 +1,11 @@
+-FIRST FULLY WORKING AND USEFUL VERSION!!
+
+-Added many functions to debugReadingFunctions. 
+-scaleDebugScreen inputs a screenshot (and gui scale and monitor size) and then scales down the pixels to a 1:1 ratio (effectively changing gui scale) and also filters out noise.
+-readProcessedScreen inputs an output from scaleDebugScreen and reads off coordinates and facing values from the screenshot.
+
+-mcfont.py includes a binary array of each number in the minecraft font. 
+
+-speedrunAssist.py is the header file and calls functions from all the modules. it is also the interface.
+
+-strongholdCalculations.py was revised from an interface to an i/o function for speedrunAssist.py. If you want to just use the calculator either do it manually with the function or use the previous initial version.
