@@ -45,3 +45,4 @@ strongholdvalues = findStronghold(firstpointvalues[0], firstpointvalues[1], firs
                                   secondpointvalues[0], secondpointvalues[1], secondpointvalues[2])
                   
 print("Found Stronghold! X =", strongholdvalues[0], "Z =", strongholdvalues[1])
+input("Press ENTER to exit")
